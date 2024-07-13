@@ -1,0 +1,371 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar
+{
+    background-color: #0a273de2;
+    
+}
+
+
+.collapse .navbar-nav .nav-link
+{
+    margin-left: 50px;
+    color: #fff;
+}
+
+nav ul li a::after
+{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: rgb(201, 200, 204);
+    display: block;
+    transition: 0.2s linear;
+}
+nav ul li a:hover::after
+{
+    width: 100%;
+    border-radius:2px;
+}
+/*  */
+ 
+
+
+
+.about {
+    padding: 50px 50px;
+}
+
+.section-info {
+    font-weight: bold;
+    text-align: center;
+}
+
+.section-info h2 {
+    font-size: 50px;
+    color: #0a0740;
+}
+
+.section-info p {
+    font-size: 14px;
+}
+
+.full-image-section .home h1 {
+     
+    font-weight: 900;
+    margin-bottom: 1rem;
+    color: #131212;
+    text-shadow: 1px 5px 5px #ece7e7;
+}
+
+h2 {
+    font-weight: 750;
+    font-size: 45px;
+    text-transform: capitalize;
+    color: #060b23;
+    line-height: 3rem;
+    font-family: 'poppins';
+}
+
+
+.full-image-section .home p
+{
+    color: #fff;
+    filter: brightness(20);
+    text-shadow: 5px 5px 5px black;
+}
+
+
+p {
+    font-size: 1rem;
+    color: #fff;
+    font-weight: 400;
+    font-family: 'poppins';
+    line-height: 1.7rem;
+    letter-spacing: 1px;
+}
+#a{
+    font-size: 1rem;
+    color: #000;
+    font-weight: 400;
+    font-family: 'poppins';
+    line-height: 1.7rem;
+    letter-spacing: 1px;
+}
+
+/* top */
+
+.top
+{
+     
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    padding: 10px 15px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.top a
+{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.about-1-section, 
+.about-2-section {
+    padding: 50px 0;
+    background: var(--black-color); /* Background color for "Hotels" and "Warehouses" */
+}
+
+.about-3-section {
+    padding: 50px 0;
+    background-color: var(--yellow-color); /* Light color for "Restaurants" */
+}
+
+.about-4-section {
+    padding: 50px 0;
+    background-color: var(--green); /* Light color for "Office Buildings" */
+}
+
+/* .about-1-section .img,
+.about-2-section .img,
+.about-3-section .img,
+.about-4-section .img {
+    border-radius: 0.625rem;
+    height: 100%;
+    margin-bottom: 20px;
+} */
+
+.text-sec {
+    padding-left: 2rem;
+}
+
+.wrapper {
+    margin-bottom: 40px;
+}
+.bg-navy {
+    background-color: navy;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: 500;
+    font-family:'poppins';
+    color: #000; 
+    margin-left: 10px;
+}
+
+.navbar-nav .nav-link {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'poppins';
+    color: #000; /* Changing font color */
+}
+
+/* .navbar-toggler {
+    border: none;
+} */
+
+.full-image-section {
+    background-image: url('https://housingvault.com/wp-content/uploads/2022/04/kapiltowers-slider1.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    text-align: center;
+}
+.full-image-section h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-shadow: 4px 5px 3px #000;
+}
+
+/* .full-image-section p {
+    font-size: 2rem;
+    line-height: 1.5;
+    color: #17103e;
+    text-shadow: 4px 5px 3px gray;
+    width: 800px;
+} */
+
+
+/* Default styling for paragraphs */
+.full-image-section p {
+    font-size: 2rem;
+    line-height: 1.5;
+    color: #17103e;
+    text-shadow: 4px 5px 3px gray;
+    width: 800px;
+}
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media query for screens smaller than 800px */
+@media only screen and (max-width: 800px) {
+    .full-image-section p {
+        width: 100%; /* Adjust width to fill the container */
+        padding: 0 20px; /* Add padding to prevent text from touching the edges */
+    }
+}
+
+/* Media query for screens smaller than 600px */
+@media only screen and (max-width: 600px) {
+    .full-image-section p {
+        font-size: 1.5rem; /* Decrease font size for smaller screens */
+    }
+}
+
+/* Media query for screens smaller than 400px */
+@media only screen and (max-width: 400px) {
+    .full-image-section p {
+        font-size: 1.2rem; /* Further decrease font size for very small screens */
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.form{
+    padding-top: 5%;
+}
+.row.single-form{
+    box-shadow: 0 2px 20px -5px rgba(0,0,0,0.5);
+    background: #fff;
+   
+}
+.left{
+    background-color: rgb(103, 93, 135);
+    padding: 150px 93px;
+    /* position: absolute;
+    left: 4%;
+    right: 50%;*/
+    height: 85%;  
+}
+.left h2{
+    font-family: poppins;
+    color: #fff;
+    font-weight: 700;
+    font-size: 48px;
+}
+.left h2 span{
+    font-weight: 100;
+}
+.right{
+    padding: 70px 100px;
+    position: relative;
+}
+.right i {
+    position: absolute;
+    font-size: 80px;
+    left: -27px;
+    top: 40%;
+    color: #fff;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Add hover effect */
+.right i:hover {
+    transform: scale(1.1); /* Scale the icon on hover */
+}
+
+.form-control{
+    border: 2px solid #000;
+}
+.right button{
+    border: none;
+    border-radius: 0;
+    background: #252525;
+    width: 180px;
+    color: #fff;
+    padding: 15px 0;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.right button:hover{
+    background: #252525;
+}
+ @media (min-width: 768px) and (max-width: 991px){
+    .right i{
+        top: -52px;
+        transform: rotate(90deg);
+        left: 50%;
+    }
+}
+@media (max-width: 767px){
+    .left{
+        padding: 90px 15px;
+        text-align: center;
+    }
+    .left h2{
+        font-size: 25px;
+    }
+    .right{
+        padding: 25px;
+    }
+    .right i{
+        top: -52px;
+        transform: rotate(90deg);
+        left: 45%;
+    }
+    .right button{
+        width: 150px;
+        padding: 12px 0;
+    }
+} 
+
+img
+{
+    height: 200%;
+}
+
+.col-md-2 a
+{
+   text-decoration: none;
+}
+.col-md-2 a:hover
+{
+    text-decoration: underline;
+}

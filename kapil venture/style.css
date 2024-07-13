@@ -1,0 +1,153 @@
+*
+{
+  font-family:'popin';
+}
+
+body {
+
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+/* undetline */
+nav ul li a::after
+{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: rgb(201, 200, 204);
+    display: block;
+    transition: 0.2s linear;
+}
+nav ul li a:hover::after
+{
+    width: 100%;
+    border-radius:2px;
+}
+/*  navbar */
+.navbar{
+  background-color: rgba(13, 47, 79, 0.92);
+}
+ 
+.navbar .nav-item .nav-link {
+    color: #fff;
+  }
+  .container {
+    margin-top: 50px;
+  }
+  .jumbotron-text {
+    
+    color: black;
+  }
+  .collapse
+  {
+    padding-left: 20%;
+  }
+  .collapse   .nav-item
+  {
+    padding-left: 25px;
+  }
+
+i
+{
+  font-size: 25px;
+  color: rgb(20, 20, 154);
+}
+.footer i
+{
+  color: #fff;
+}
+
+/* pages */
+  .col-lg-6 li {
+    padding: 10px 20px;
+    font-size: 1rem;
+    overflow: hidden;
+  }
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  /* home */
+  .home
+  {
+    margin-top: 0px;
+    background-image: url(./image/DSC_6603.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .home .row .col-6
+  {
+    padding-top: 15%;
+    padding-bottom: 20%;
+  }
+
+  .home h1
+  {
+    font-size: 2rem;
+    color:blue;
+    text-shadow:2px 2px white;
+
+  }
+  .about-section h2
+  {
+    color:rgb(7, 7, 94);
+  }
+  .kapil-section h2 {
+    color:rgb(7, 7, 94);
+  }
+  .towers-section h2{
+    color:rgb(7, 7, 94);
+  }
+  .group-section h2 
+  {
+    color:rgb(7, 7, 94);
+  }
+  .home  p
+  {
+    padding-top: 5%;
+    color:white;
+    font-size: 1.5rem;
+    align-items: center;
+    text-align: center;
+    text-shadow:2px 2px black;
+  }
+  .image {
+    max-width: 700px;
+    height:580px;
+  }
+  
+  /* @media screen {
+    
+  } */
+  
+  .footer {
+    font-size: 14px;
+    background-color: #090936;
+    padding: 1px 0;
+    color: rgba(255, 255, 255, 0.7);
+  }
+  
+  .footer .icon {
+    margin-right: 5px;
+    font-size: 24px;
+    line-height: 0;
+  }
+  
+  .footer h4 {
+    font-size: 16px;
+    font-weight: bold;
+    position: relative;
+    padding-bottom: 1px;
+    color: #fff;
+  }
+  
+  .footer .footer-links {
+    margin-bottom: 0px;
+  }
+  
+  
+  
+ 

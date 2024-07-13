@@ -1,0 +1,369 @@
+*{
+    font-family: poppin;
+}
+.scroll-top
+{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    padding: 10px 15px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.scroll-top a
+{
+    text-decoration: none;
+    color: #fff;
+}
+.scroll-top a:hover
+{
+  text-decoration: none;
+}
+.navbar
+{
+  background-color: #0a273de2;
+  max-width: 100%;
+  padding: 300px;
+     
+}
+.navbar-brand
+{
+    margin-left: 30px;
+}
+.collapse 
+{
+    margin-left: 20%;
+     
+}
+ 
+.navbar .collapse .nav-item .nav-link
+{
+    padding-left: 30px;
+    color: #fff;
+}
+
+nav ul li a::after
+{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: rgb(201, 200, 204);
+    display: block;
+    transition: 0.2s linear;
+}
+nav ul li a:hover::after
+{
+    width: 100%;
+    border-radius:2px;
+}
+
+/* home */
+.container-fluid .home .row{
+ background-image: url(./images-invest/image.png);
+ background-repeat: no-repeat;
+ background-size: cover;
+
+}
+
+.container-fluid .home h2 {
+  padding-top: 150px;
+  text-align: center;
+  color: #e4dddd;
+  font-size: 3rem;
+  text-shadow: 6px 3px 2px black;
+  font-weight: bold;
+}
+
+.container-fluid .home p {
+  padding-top: 60px;
+  color: aliceblue;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  padding-bottom: 250px;
+  text-shadow: 6px 5px 9px black;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .container-fluid .home h2 {
+      font-size: 2.5rem;
+      padding-top: 100px;
+  }
+  
+  .container-fluid .home p {
+      font-size: 1.5rem;
+      padding-top: 30px;
+      padding-bottom: 150px;
+  }
+}
+
+@media (max-width: 576px) {
+  .container-fluid .home h2 {
+      font-size: 2rem;
+      padding-top: 80px;
+  }
+  
+  .container-fluid .home p {
+      font-size: 1.2rem;
+      padding-top: 20px;
+      padding-bottom: 100px;
+  }
+}
+
+/*  */
+
+.intro {
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+  .services {
+    margin-top: 80px;
+    padding: 50px 20px;
+  }
+  
+  .services .service {
+    margin-bottom: 20px;
+  }
+  
+ 
+  .service i
+  {
+    font-size: 60px;
+  }
+
+  .get-start  
+  {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+  }
+  .get-start .btn a
+  {
+    text-decoration: none;
+    color: bisque;
+  }
+
+  /* for all images */
+  img
+  {
+    box-shadow: 5px 5px 9px rgb(87, 87, 87);
+  }
+/*  */
+
+/* business park */
+ 
+.container-fluid .business h1
+{
+  margin-top: 50px;
+   align-items: center;
+   text-align: center;
+   padding-bottom: 30px;
+   color: cadetblue;
+}
+ 
+.container-fluid .business .row .col-lg-6 p
+{
+  
+  font-size: 17px;
+  font-weight: bold;
+  text-shadow: 5px 3px 7px black;
+  
+}
+.container-fluid .business .row .col-lg-6 h4
+{
+  color: blueviolet;
+}
+
+
+
+/* kapil-hub */
+
+.container-fluids
+{
+  background-color: rgba(139, 134, 134, 0.284);
+}
+
+.kapil-hub
+{
+  margin-top: 50px;
+  background-color: rgba(59, 59, 59, 0.284);
+}
+.kapil-hub h1
+{
+   
+  align-items: center;
+  text-align: center;
+  color:rgb(101, 180, 182);
+}
+.kapil-hub p
+{
+  font-size: 20px;
+  align-items: center;
+  text-align: center;
+  color: blueviolet;
+}
+.kapil-hub .col-md-6 h5
+{
+  color:blueviolet;
+}
+
+
+.kapil-hub .col-lg-4 h5
+{
+  color: aliceblue;
+}
+.kapil-hub .col-lg-4 p
+{
+  color: black;
+}
+
+/* kapil-towers */
+.container-tower header
+{
+  align-items: center;
+  text-align: center;
+}
+.container-tower header h1
+{
+  color: cadetblue;
+}
+.container-tower header p
+{
+  font-size: 18px;
+}
+
+.container-tower .row
+{
+  margin-left: 30px;
+}
+.container-tower .col-lg-4 h5
+{
+
+  color: rgb(12, 12, 85);
+}
+.container-tower h3
+{
+  color: blueviolet;
+}
+
+/* KT Residency */
+
+.ktr
+{
+  background-color: rgba(150, 159, 156, 0.365);
+}
+.ktr .card-deck .card
+{
+ 
+   background-color: rgba(120, 114, 114, 0.543);
+   box-shadow: 5px 5px 5px gray;
+}
+
+.ktr .card-deck .card .card-footer
+{
+  font-size: 18px;
+  color: aliceblue;
+}
+
+.ktr .col-lg-4 h4
+{
+   color: blueviolet;
+}
+.ktr .card-deck .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.ktr .card-deck .row .col-md-6 {
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+  .col-md-6 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  /* .navbar
+  {
+    width: 100%;
+  }
+} */
+/* 
+@media (max-width: 768px) { */
+  .navbar {
+    padding: 10px; /* Adjust padding for smaller screens */
+  }
+  
+  .navbar-brand {
+    margin-left: 10px; /* Adjust margin for smaller screens */
+  }
+  
+  .collapse {
+    margin-left: 0; /* Reset margin for smaller screens */
+  }
+  
+  .collapse .nav-item {
+    padding-left: 10px; /* Adjust padding for smaller screens */
+  }
+  .ktr .row
+  {
+    margin-left: -10px;
+  }
+}
+
+@media (max-width: 400px) {
+.ktr .col-lg-4
+{
+ margin-left: -50px;
+}
+.ktr .card-deck .card
+{
+margin-left: -100px;
+}
+}
+@media (max-width: 400px){
+
+  .ktr .col-lg-4
+{
+ margin-left: -2px;
+}
+.ktr .card-deck .card
+{
+margin-left: -10px;
+}
+
+}
+/* footer */
+
+.footer
+{
+  margin-bottom: -120px;
+}
+
+
+
+
+
+
+  /* conatcat */
+
+
+  .container .mb-4
+  {
+    margin-top: 90px;
+    color: blue;
+    
+  }
+  .container
+  {
+    margin-bottom: 130px;
+  }
